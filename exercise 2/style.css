@@ -1,15 +1,15 @@
-/* Фон всей страницы */
+
 body {
-    background-color: #f0f0f0; /* светло-серый */
+    background-color: #f0f0f0; 
     font-family: Arial, sans-serif;
 }
 
-/* Неупорядоченные списки */
+
 ul li {
-    color: blue; /* синий текст */
+    color: blue; 
 }
 
-/* Упорядоченные списки */
+
 ol li {
-    font-size: 18px; /* увеличенный размер шрифта */
+    font-size: 18px;
 }

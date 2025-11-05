@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Стили для карточки */
+
 .product-card {
     width: 250px;
     padding: 20px;
@@ -15,13 +15,13 @@ body {
     border-radius: 8px;
 }
 
-/* Изображение */
+
 .product-card img {
     width: 100%;
     border-radius: 4px;
 }
 
-/* Заголовок и цена */
+
 .product-card h3 {
     margin: 15px 0 10px;
 }
