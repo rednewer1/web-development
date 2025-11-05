@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для карточки */
+.product-card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    margin: 40px auto; /* Центрирование по горизонтали */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Изображение */
+.product-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Заголовок и цена */
+.product-card h3 {
+    margin: 15px 0 10px;
+}
+
+.product-card p {
+    color: #333;
+    font-weight: bold;
+}

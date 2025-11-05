@@ -1,0 +1,60 @@
+/* Общие стили для удобства чтения */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; /* или можно использовать gap: 20px; если поддерживается */
+    /* Альтернатива: gap: 20px; — более современный способ */
+}
+
+.left-column {
+    flex: 1; /* Занимает доступное пространство */
+    background-color: #e8f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+    color: #333;
+}
+
+.right-column {
+    flex: 1; /* Занимает доступное пространство */
+    background-color: #f0e8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+    color: #222;
+}
+
+/* Стили для заголовков */
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* Стили для изображения */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Дополнительно: адаптивность */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

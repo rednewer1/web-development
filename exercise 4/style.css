@@ -1,0 +1,41 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Навигация */
+.navbar {
+    background-color: #333; /* тёмно-серый фон */
+    display: flex;
+    justify-content: center; /* центрируем элементы */
+    padding: 10px 0;
+}
+
+/* Убираем стандартные отступы у списка */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Отступы между пунктами меню */
+.navbar li {
+    margin-right: 20px;
+}
+
+/* Ссылки в меню */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Эффект при наведении */
+.navbar a:hover {
+    background-color: #555;
+    color: #ffd700; /* золотистый цвет при наведении */
+}
