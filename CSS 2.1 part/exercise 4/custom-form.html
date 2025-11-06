@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кастомные чекбоксы и радиокнопки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend>Выберите ваши предпочтения</legend>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="option1">
+        <label for="option1">Получать новости</label>
+
+        <input type="checkbox" id="option2">
+        <label for="option2">Соглашаюсь с условиями</label>
+
+        <input type="checkbox" id="option3">
+        <label for="option3">Получать уведомления</label>
+      </div>
+
+      <legend>Выберите тип подписки</legend>
+      <div class="radio-group">
+        <input type="radio" name="subscription" id="basic">
+        <label for="basic">Базовая</label>
+
+        <input type="radio" name="subscription" id="premium">
+        <label for="premium">Премиум</label>
+
+        <input type="radio" name="subscription" id="vip">
+        <label for="vip">VIP</label>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>

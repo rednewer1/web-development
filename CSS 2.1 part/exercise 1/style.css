@@ -1,0 +1,72 @@
+.dashboard-layout > * {
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+}
+
+.dashboard-layout {
+    display: grid;
+    gap: 10px;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1025px) {
+    .dashboard-layout {
+        grid-template-columns: 200px 1fr 250px;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "header header header"
+            "nav main widget"
+            "footer footer footer";
+    }
+
+    header { grid-area: header; }
+    nav { grid-area: nav; }
+    main { grid-area: main; }
+    footer { grid-area: footer; }
+    .widget { grid-area: widget; }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .dashboard-layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "main main"
+            "footer footer";
+    }
+
+    header { grid-area: header; }
+    nav { grid-area: nav; }
+    main { grid-area: main; }
+    footer { grid-area: footer; }
+    .widget { display: none; } 
+}
+
+@media (max-width: 767px) {
+    .dashboard-layout {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "widget"
+            "footer";
+    }
+
+    header { grid-area: header; }
+    nav { grid-area: nav; }
+    main { grid-area: main; }
+    footer { grid-area: footer; }
+    .widget { grid-area: widget; }
+}
