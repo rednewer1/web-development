@@ -4,7 +4,7 @@ const images = [
     "https://i.pinimg.com/736x/9c/9e/2b/9c9e2b522b340ae9163ac2170b0bf080.jpg"
 ];
 
-let currentImageIndex = 0;
+let currentImageIndex = -1;
 const img = document.querySelector('.image');
 const button = document.querySelector('.btn');
 
