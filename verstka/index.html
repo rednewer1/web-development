@@ -12,11 +12,14 @@
       <h1 class="rooms__title">Номера и цены</h1>
 
       <div class="rooms__list">
-        <article class="room-card room-card--available">
+      <article class="room-card room-card--available room-card--best">
+          <div class="room-card__badge">
+            <span class="room-card__badge-text">Лучшая цена</span>
+          </div>
         <div class="room-card__image-wrapper">
             <img
             class="room-card__image"
-            src="img/room1.jpg"
+            src="img/room1.png"
             alt="Представительский люкс"
             >
         </div>
@@ -26,7 +29,7 @@
             <p class="room-card__text">
             Эксклюзивный номер с панорамным видом на центр города Москвы
             </p>
-            <p class="room-card__price">от 7900 руб./сутки</p>
+            <p class="room-card__price">от <span class="room-rub__price">7900</span> руб./сутки</p>
             <button class="room-card__button" type="button">
             Забронировать
             </button>
@@ -35,12 +38,15 @@
 
 
         <article class="room-card room-card--available room-card--best">
-        <div class="room-card__badge">Лучшая цена</div>
+        <div class="room-card__badge">
+          <span class="room-card__badge-text">Лучшая цена</span>
+        </div>
+
 
         <div class="room-card__image-wrapper">
             <img
             class="room-card__image"
-            src="img/room2.jpg"
+            src="img/room2.png"
             alt="Дуплекс"
             >
         </div>
@@ -50,7 +56,7 @@
             <p class="room-card__text">
             Просторный двухкомнатный номер с шикарным видом на парк
             </p>
-            <p class="room-card__price">от 5700 руб./сутки</p>
+            <p class="room-card__price">от <span class="room-rub__price">5700</span> руб./сутки</p>
             <button class="room-card__button" type="button">
             Забронировать
             </button>
@@ -62,7 +68,7 @@
         <div class="room-card__image-wrapper">
             <img
             class="room-card__image"
-            src="img/room3.webp"
+            src="img/room3.png"
             alt="Бизнес-люкс"
             >
         </div>
@@ -72,7 +78,7 @@
             <p class="room-card__text">
             Трехкомнатный номер с панорамным видом на Москва-реку
             </p>
-            <p class="room-card__price">от 4900 руб./сутки</p>
+            <p class="room-card__price">от <span class="room-rub__price">4900</span> руб./сутки</p>
             <button class="room-card__button" type="button" disabled>
             Подробнее
             </button>
