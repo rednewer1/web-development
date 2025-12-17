@@ -190,7 +190,7 @@
   position: absolute;
   inset: 0;
   background-color: #fff;
-  opacity: 0.45; /* степень засветления */
+  opacity: 0.45; 
   pointer-events: none;
   z-index: 2;
 }
